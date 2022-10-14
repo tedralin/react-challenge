@@ -1,0 +1,65 @@
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    &__reset {
+      height:30px;
+      margin: 20px 0;
+      top: 50%;
+
+    }
+  }
+  
+.input {
+    margin: 10px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .input__text {
+        width: 300px;
+        border: none;
+    }
+    .input__button {
+        margin: 0 20px;
+        color: wheat;
+        background-color: darkgray;
+        border-radius: 50%;
+
+    }
+}
+.taskContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin: 10px;
+    padding: 10px 0;;
+    .taskRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid darkcyan;
+        border-radius: 5px;
+        height: 28px;
+        margin: 5px;
+        padding: 5px;
+        .checkTask {
+            display: flex;
+            flex-direction: row;;
+            text-align: left;
+        }
+        .taskDone {
+            text-decoration: line-through;
+        }
+        img {
+            width: 20px;
+            right: 100px ;
+        }
+    
+    }
+}
