@@ -1,0 +1,17 @@
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    &__reset {
+      height:30px;
+      margin: 20px 0;
+      top: 50%;
+      background-color: darkcyan;
+      color: beige;
+
+    }
+  }
+  

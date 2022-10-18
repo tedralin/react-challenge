@@ -1,0 +1,25 @@
+.input {
+    margin: 10px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    .input__text {
+        width: 300px;
+        border: none;
+        padding: 10px;
+        margin: 5px;
+        font-size: 15px;
+    }
+    .input__button {
+        margin: 0 20px;
+        color: beige;
+        background-color: darkcyan;
+        border-radius: 50%;
+
+    }
+}

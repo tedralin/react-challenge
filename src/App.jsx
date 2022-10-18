@@ -1,5 +1,6 @@
 import './App.scss';
-import ToDo from './components/ToDo/ToDo';
+import ToDo from './containers/ToDo/ToDo';
+
 
 const App = () => {
   return (
